@@ -18,15 +18,15 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
 ![Attach Disk](assets/attachDisk2Repair01.png)
 
 - Start the Repair01 VM and login
-- Navigate on the Disk, for instance Drive E:, to *E:\Windows\WinSxS*
+- In the Explorer navigate on the attached Disk, for instance Drive E:, to *E:\Windows\WinSxS*
 
 ![Pending.xml](assets/pendingxml.png)
 
 - Modify the permission of *E:\Windows\WinSxS\pending.xml*
   - The user needs the permission to modify *the pending.xml*
-
-- Open the *pending.xml* in an editor (Notepad or Notepad++)
-- Search for *0000000000000000.cdf-ms* (Strg+F)
+- Create a copy of the *the pending.xml* as a backup
+- Open the *pending.xml* in an editor (Notepad or Notepad++) - Loading might last a little bit because of the file ;-)
+- In the file search for *0000000000000000.cdf-ms* (Strg+F)
 - Delete the following lines
   - *\<Checkpoint/\>*
   - *\<DeleteFile path=”SystemRootWinSxSFileMaps_0000000000000000.cdf-ms”\>*
