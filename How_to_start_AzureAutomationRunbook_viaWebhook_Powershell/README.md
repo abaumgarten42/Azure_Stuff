@@ -15,6 +15,3 @@
 
 ### Output
 ![Runbook Output](assets/output.png)
-
-
-[How to fix Error C0000034 - Azure Windows VM doesn't start](How_to_fix_Error_C0000034_Azure_VM_booting)
