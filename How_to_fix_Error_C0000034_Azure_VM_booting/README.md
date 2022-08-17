@@ -26,8 +26,8 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
   - The user needs the permission to modify *the pending.xml*
 - Create a copy of the *the pending.xml* as a backup
 - Open the *pending.xml* in an editor (Notepad or Notepad++) - Loading might last a little bit because of the file ;-)
-- In the file search for *0000000000000000.cdf-ms* (Strg+F)
-- Delete the following lines
+- In the file search for *0000000000000000.cdf-ms* (using Strg+F in the editor)
+- Delete the following lines:
   - *\<Checkpoint/\>*
   - *\<DeleteFile path=”SystemRootWinSxSFileMaps_0000000000000000.cdf-ms”\>*
   - If exists: *\<MoveFile source=”SystemRootWinSxSTempPendingRenamese56db1db48d4cb0199440000b01de419._0000000000000000.cdf-ms” destination=”SystemRootWinSxSFileMa_0000000000000000.cdf-ms”/\>*
