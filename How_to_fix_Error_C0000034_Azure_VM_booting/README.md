@@ -31,7 +31,7 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
   - *\<Checkpoint/\>*
   - *\<DeleteFile path=”SystemRootWinSxSFileMaps_0000000000000000.cdf-ms”\>*
   - If exists: *\<MoveFile source=”SystemRootWinSxSTempPendingRenamese56db1db48d4cb0199440000b01de419._0000000000000000.cdf-ms” destination=”SystemRootWinSxSFileMa_0000000000000000.cdf-ms”/\>*
--  Save the modfied file *pending.xml*
+-  Save the modfied *pending.xml*
 
 - Detach the OS Disk from the VM Repair01
 
