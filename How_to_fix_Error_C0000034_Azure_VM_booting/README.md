@@ -4,4 +4,4 @@ Sometimes it might happen the Azure Windows VM doesn't start because of the erro
 
 The Boot diagnostics will show the error as a Screenshot:
 
-![Boot diagnostics - error C0000034](/assets/errorC0000034.png)
+![Boot diagnostics - error C0000034](/Azure_Stuff/blob/main/How_to_fix_Error_C0000034_Azure_VM_booting/assets/errorC0000034.png)
