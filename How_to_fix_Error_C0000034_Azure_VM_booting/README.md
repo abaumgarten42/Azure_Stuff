@@ -3,8 +3,42 @@
 Sometimes it might happen the Azure Windows VM doesn't start because of the error C0000034.
 
 ## How to discover the error
-The Boot diagnostics will show the error in the Screenshot:
+The **Boot diagnostics** of the affected VM will show the error in the Screenshot:
 
 ![Boot diagnostics - error C0000034](assets/errorC0000034.png)
 
 ## How to fix the error
+- You need a Azure Windows VM where the OS Disk could be attached as a Data Disk (for instance Repair01)
+- Delete the affected VM **but keep the OS-Disks and exiting Data Disks!**
+- Attach the OS Disk to a Azure Windows VM, for instance Repair01, as a Data Disk
+
+![Attach Disk](assets/attachDisk2Repair01.png)
+
+- Start the Repair01 VM and login
+- Navigate on the Disk, for instance Drive E:, to *E:\Windows\WinSxS*
+
+![Pending.xml](assets/pendingxml.png)
+
+- Modify the permission of *E:\Windows\WinSxS\pending.xml*
+  - The user needs the permission to modify *the pending.xml*
+
+- Open the *pending.xml* in an editor (Notepad or Notepad++)
+- Search for *0000000000000000.cdf-ms* (Strg+F)
+- Delete the following lines
+  - *\<Checkpoint/\>*
+  - *\<DeleteFile path=”SystemRootWinSxSFileMaps_0000000000000000.cdf-ms”\>*
+  - If exists: *\<MoveFile source=”SystemRootWinSxSTempPendingRenamese56db1db48d4cb0199440000b01de419._0000000000000000.cdf-ms” destination=”SystemRootWinSxSFileMa_0000000000000000.cdf-ms”/\>*
+-  Save the file modified *pending.xml*
+
+- Detach the OS Disk from the VM Repair01
+
+- Create a new VM with the same name of the affected VM
+  - Navigate to Disks in the Azure Portal
+  - Find the modified OS Disk and double-click
+  - Choose *Create VM* and follow the steps in the wizard
+
+## The result
+The new created VM should no start without the error.
+You could verify the result in the **Boot diagnostics** of the affected VM 
+
+![Repaired VM](assets/repairedDC1.png)
