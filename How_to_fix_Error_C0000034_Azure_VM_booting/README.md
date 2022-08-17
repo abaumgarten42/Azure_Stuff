@@ -9,6 +9,9 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
 
 ## How to fix the error
 - You need a Azure Windows VM where the OS Disk could be attached as a Data Disk (for instance Repair01)
+- Make notes of the configuration of the affected VM, for instance:
+  - NIC and IP configuration
+  - Disk configuration
 - Delete the affected VM **but keep the OS-Disks and exiting Data Disks!**
 - Attach the OS Disk to a Azure Windows VM, for instance Repair01, as a Data Disk
 
@@ -33,12 +36,12 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
 - Detach the OS Disk from the VM Repair01
 
 - Create a new VM with the same name of the affected VM
-  - Navigate to Disks in the Azure Portal
-  - Find the modified OS Disk and double-click
+  - In the Azure Portal Navigate to **Disks**
+  - Find and select the modified OS Disk
   - Choose *Create VM* and follow the steps in the wizard
 
 ## The result
-The new created VM should no start without the error.
+The new created VM should now start without the error.
 You could verify the result in the **Boot diagnostics** of the affected VM 
 
 ![Repaired VM](assets/repairedDC1.png)
