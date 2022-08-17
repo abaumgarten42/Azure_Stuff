@@ -1,4 +1,4 @@
-# How to start a Azure Automation via PowerShell - Invoke-Webrequest with parameters
+# How to start an Azure Automation Runbook via PowerShell using Invoke-Webrequest with parameters
 ### Create a Azure Automation Runbook
 - Create an Azure Automation Runbook (PowerShell)
 - Copy the content of [*RunbookPowerShellScript.ps1*](RunbookPowerShellScript.ps1) in the Editor -> Save -> Publish
