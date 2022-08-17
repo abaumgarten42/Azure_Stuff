@@ -13,7 +13,7 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
   - NIC and IP configuration
   - Disk configuration
 - Delete the affected VM **but keep the OS-Disks and exiting Data Disks!**
-- Attach the OS Disk to a Azure Windows VM, for instance Repair01, as a Data Disk
+- Attach the OS Disk to a Azure Windows VM, for instance *Repair01*, as a Data Disk
 
 ![Attach Disk](assets/attachDisk2Repair01.png)
 
