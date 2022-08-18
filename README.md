@@ -11,8 +11,10 @@
 - [PowerShell scripts related to Azure Cost Management](Azure_Costmanagement)
 
 ### Bicep
+- Work in progress
 
 ### Terraform
+- Work in progress
 
 ### HOW-TOs
 - [How to fix Error C0000034 - Azure Windows VM doesn't start](How_to_fix_Error_C0000034_Azure_VM_booting)
