@@ -1,4 +1,4 @@
-# Some helpful Azure_Stuff
+# Some helpful Azure Stuff
 - PowerShell scripts
 - Bicep stuff
 - Terraform stuff

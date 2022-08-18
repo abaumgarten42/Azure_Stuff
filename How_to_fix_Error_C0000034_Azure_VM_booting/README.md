@@ -8,7 +8,7 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
 ![Boot diagnostics - error C0000034](assets/errorC0000034.png)
 
 ## How to fix the error
-- You need a Azure Windows VM where the OS Disk could be attached as a Data Disk (for instance Repair01)
+- You need a Azure Windows VM where the OS Disk could be attached as a Data Disk (for instance *Repair01*)
 - Make notes of the configuration of the affected VM, for instance:
   - NIC and IP configuration
   - Disk configuration
@@ -17,14 +17,14 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
 
 ![Attach Disk](assets/attachDisk2Repair01.png)
 
-- Start the Repair01 VM and login
+- Start the *Repair01* VM and login
 - In the Explorer navigate on the attached Disk, for instance Drive E:, to *E:\Windows\WinSxS*
 
 ![Pending.xml](assets/pendingxml.png)
 
 - Modify the permission of *E:\Windows\WinSxS\pending.xml*
   - The user needs the permission to modify *the pending.xml*
-- Create a copy of the *the pending.xml* as a backup
+- Create a copy of the *the pending.xml* as a backup (better safe than sorry)
 - Open the *pending.xml* in an editor (Notepad or Notepad++) - Loading might last a little bit because of the file size ;-)
 - In the file search for *0000000000000000.cdf-ms* (using Strg+F in the editor)
 - Delete the following lines:
@@ -33,7 +33,7 @@ The **Boot diagnostics** of the affected VM will show the error in the Screensho
   - If exists: *\<MoveFile source=”SystemRootWinSxSTempPendingRenamese56db1db48d4cb0199440000b01de419._0000000000000000.cdf-ms” destination=”SystemRootWinSxSFileMa_0000000000000000.cdf-ms”/\>*
 -  Save the modfied *pending.xml*
 
-- Detach the OS Disk from the VM Repair01
+- Detach the OS Disk from the VM *Repair01*
 
 - Create a new VM with the same name of the affected VM
   - In the Azure Portal Navigate to **Disks**
