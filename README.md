@@ -11,6 +11,7 @@
 - [PowerShell scripts related to Azure Cost Management](Azure_Costmanagement)
 - [PowerShell scripts related to Azure Disks](Azure_Disks)
 - [PowerShell scripts related to Azure Networks](Azure_Networks)
+- [PowerShell scripts related to Azure Virtual Machines](Azure_VMs)
 
 ### Bicep
 - Work in progress
