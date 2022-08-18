@@ -1,3 +1,4 @@
+# Setting custom DNS server for Azure Virtual Network
 $vNetRGname = "<name of resourcegroup>"
 $vNet = "<name of vNet>"
 $vNet = Get-AzVirtualNetwork -ResourceGroupName $vNetRGname -Name $vNet

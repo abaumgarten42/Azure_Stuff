@@ -1,3 +1,4 @@
+# Add a Security Rule to an existing Azure NSG 
  # Define values
  $nsgName = "<My NSG>"
  $resourceGroup = "<My Resource Group>"
