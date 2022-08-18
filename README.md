@@ -9,6 +9,8 @@
 - [How to start a Azure Automation via PowerShell - Invoke-Webrequest with parameters](How_to_start_AzureAutomationRunbook_viaWebhook_Powershell)
 - [Some PowerShell scripts related to Azure Login and LogOff/Disconnect](Azure_Login_and_Connect)
 - [PowerShell scripts related to Azure Cost Management](Azure_Costmanagement)
+- [PowerShell scripts related to Azure Disks](Azure_Disks)
+- [PowerShell scripts related to Azure Networks](Azure_Networks)
 
 ### Bicep
 - Work in progress
