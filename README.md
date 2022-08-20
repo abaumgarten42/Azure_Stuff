@@ -13,7 +13,7 @@
   - [*Disconnect/LogOff from all active Auzure Sessions*](Azure_Login_and_Connect/Disconnect-AllAzureSessions.ps1)
 - [PowerShell scripts to start a Azure Automation Runbooks - Invoke-Webrequest with parameters](How_to_start_AzureAutomationRunbook_viaWebhook_Powershell)
   - [*Run this PowerShell script to start an Azure Automation Runbook via Invoke-Webrequest and parameters/input*](How_to_start_AzureAutomationRunbook_viaWebhook_Powershell/Invoke-Webrequest_AutomationRunbook.ps1)
-  [*Example script for an Azure Automation Runbook*](How_to_start_AzureAutomationRunbook_viaWebhook_Powershell/RunbookPowerShellScript.ps1)
+  - [*Example script for an Azure Automation Runbook*](How_to_start_AzureAutomationRunbook_viaWebhook_Powershell/RunbookPowerShellScript.ps1)
 - [PowerShell scripts related to Azure Cost Management](Azure_Costmanagement)
   - [*List of resource costs and total costs by Azure Resource Group*](Azure_Costmanagement/Get-ResourceCostsByResourceGroup.ps1)
 - [PowerShell scripts related to Azure Disks](Azure_Disks)
