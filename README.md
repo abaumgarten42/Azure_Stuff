@@ -6,8 +6,8 @@
 
 ## Content:
 ### PowerShell
-#### All PowerScripts require the Az module installed and imported
-#### It's required to login to Azure and select the subscription as well ([*LoginTo-Azure.ps1*](Azure_Login_and_Connect/LoginTo-Azure.ps1))
+#### - All PowerScripts require the Az module installed and imported
+#### - It's required to login to Azure and select the subscription as well ([*LoginTo-Azure.ps1*](Azure_Login_and_Connect/LoginTo-Azure.ps1))
 - [Some PowerShell scripts related to Azure Login and LogOff/Disconnect](Azure_Login_and_Connect)
 - [How to start a Azure Automation via PowerShell - Invoke-Webrequest with parameters](How_to_start_AzureAutomationRunbook_viaWebhook_Powershell)
 - [PowerShell scripts related to Azure Cost Management](Azure_Costmanagement)
