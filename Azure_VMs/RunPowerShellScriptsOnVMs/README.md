@@ -1,4 +1,4 @@
-# PowerShell scripts to run PowerShellScripts in Azure VMs
+# PowerShell scripts to run PowerShell scripts in Azure VMs
 - [*RunPSonVM-Create-Folder.ps1*](RunPSonVM-Create-Folder.ps1)
   - Starts the PS script [*Create-Folder.ps1*](Create-Folder.ps1) on the defined Azure VM and creates a folder
 - [*RunPSonVM-Reset-PwLocalUser.ps1*](RunPSonVM-Reset-PwLocalUser.ps1)
