@@ -1,4 +1,4 @@
-# Run this PowwrShell script to start an Azure Automation Runbook via Invoke-Webrequest and parameters/input
+# Run this PowerShell script to start an Azure Automation Runbook via Invoke-Webrequest and parameters/input
 
 $webhookURI = '<your-webhook-URI>'
 $params  = @{
