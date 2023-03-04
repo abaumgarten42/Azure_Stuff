@@ -1,5 +1,5 @@
-$tenantId = "3004da42-d783-4ee0-b90c-255326eb0f5f"
-$subscriptionName = '<my Azure Subscription Name>'
+$tenantId = "<Enter the Azure AD Tenant ID here"
+$subscriptionName = '<Enter the Azure Subscription Name>'
 # Check if an active Azure Conext exists / if no Azure Context exists -> Connect to Azure
 $azureContext = Get-AzContext
 # Connect Azure
