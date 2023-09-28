@@ -25,7 +25,8 @@
   - [*Get VMs with specific size - vm name, vm size, resourcegroup name, status of vm*](Azure_VMs/Get-VMswithSpecificSize.ps1)
   - [*PowerShell scripts to run PowerShell scripts in Azure VMs*](Azure_VMs/RunPowerShellScriptsOnVMs)
   - [*Update tag value of multiple VMs*](Azure_VMs/Replace-VMtags.ps1)
-
+- [PowerShell scripts related to Azure Virtual Desktop](Azure_AVD)
+  -[*Getting a list of all users and groups assigned to AVD Application Groups*](Azure_AVD/Get-AssignedUsersGroupsOfApplicationGroups.ps1)
 
 ### Bicep
 - Work in progress
